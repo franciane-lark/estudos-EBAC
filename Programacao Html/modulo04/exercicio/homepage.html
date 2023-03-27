@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Franciane Lark</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			* {
+			  box-sizing: border-box;
+			}
+
+			body {
+			  font-family: Arial, Helvetica, sans-serif;
+			}
+
+			/* Style the header */
+			header {
+			  background-color: #666;
+			  padding: 30px;
+			  text-align: center;
+			  font-size: 35px;
+			  color: white;
+			}
+
+			/* Create two columns/boxes that floats next to each other */
+			nav {
+			  float: left;
+			  width: 30%;
+			   
+			  background: #ccc;
+			  padding: 20px;
+			}
+
+			/* Style the list inside the menu */
+			nav ul {
+			  list-style-type: none;
+			  padding: 0;
+			}
+
+			article {
+			  float: left;
+			  padding: 20px;
+			  width: 70%;
+			  background-color: #f1f1f1;
+			}
+
+			/* Clear floats after the columns */
+			section::after {
+			  background: #ccc;
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+
+			/* Style the footer */
+			footer {
+			  background-color: #777;
+			  padding: 10px;
+			  text-align: center;
+			  color: white;
+			}
+
+			/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+			@media (max-width: 600px) {
+			  nav, article {
+			    width: 100%;
+			    height: auto;
+			  }
+			}
+			</style>
+	</head>
+	<body>
+
+		<header>
+			<h2>Curso Front-end - HTML</h2>
+		</header>
+
+		<section>
+
+			<nav>
+				<h3>Aulas</h3>
+				<ul>
+					<li><a href="01-introducao.html">Introdução</a></li>
+					<li><a href="02-listas-e-links.html">Listas e Links</a></li>
+					<li><a href="03-formatacao-de-texto.html">Formatação de Texto</a></li>
+					<li><a href="04-tabelas.html">Tabelas</a></li>
+					<li><a href="05-layouts.html">Layouts</a></li>
+					<li><a href="06-formularios.html">Formulários</a></li>
+				</ul>
+
+				<h3>Redes Sociais</h3>
+				<ul>
+					<li><a href="https://www.linkedin.com/in/franciane-lark/">LinkedIn</li>
+					<li><a href="https://www.instagram.com/lark_tech/">@lark_tech</li>
+				</ul>
+			</nav>
+
+			<article>
+
+				<img width="200" src="https://media.licdn.com/dms/image/D4D03AQGVaZKN3uL47A/profile-displayphoto-shrink_200_200/0/1679263552598?e=1685577600&v=beta&t=24bXlMxBuy9kOs1SUGJW_6k2sHNEMKPsf1brHfpXsDQ" height="200" alt="Marcelo Cavalcante">
+				
+				<h2>Franciane Lark</h2>
+
+				<p>Desenvolvedora Front-End e Estudante de Front-end da <strong>EBAC</strong> </p>
+				
+				<p>
+					Olá, me chamo Franciane Lark, seja bem vindo ao meu perfil, gosto de estudar exatas e o mundo da tecnologia e sempre
+					venho me aperfeiçoando cada vez mais. Sou formada em Web Design, Técnico em Elétrica, Técnico em Informática e Sistema
+					de Informação, almejo fazer uma especialização em Desenvolvimento Front-End ou Bootcamps, que me capacitem nesta área,
+					atuei em alguns projetos de Web no decorrer da minha caminhada, utilizando a plataforma do Figma e WordPress.
+				</p>
+
+				<p>
+					Comecei no mundo da programação fazendo os cursos da Programaria, Skill Lab, Estação Hack from Facebook, Formação Você
+					Programador, Digital Innovation One e Vai na web todos voltados para o Front-End.
+				</p>
+
+				<p>
+					Atualmente estudo Inglês, Informática, Algoritmos e Programação, Ui Design, Git/Github, HTML5, CSS3, JavaScript,
+					Bootstrap5 e tenho interesse pelos ecossistemas React e Vue.
+				</p>
+				
+				<p>
+					Também faço parte do Projeto Instituto Nu (Nubank com a Descomplica), sendo o curso com ênfase ao Front-End.
+				</p>
+
+				<p>
+					No meu tempo livre amo ver séries, doramas, assistir filmes, brincar com meus dogs Luna e Pandora, passear no shopping,
+					ler livros, dançar, jogar conversa fora com os amigos e também Crio Conteúdos no Instagram.
+				</p>
+
+			</article>
+
+
+		</section>
+
+		<footer>
+			<p>Desenvolvido por Franciane Lark</p>
+		</footer>
+		
+	</body>
+</html>
